@@ -1,0 +1,63 @@
+.App{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  padding: 10px;
+ 
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.title{
+  text-align: center;
+}
+.input_in{
+   margin-top: 20px;
+   border: 1px solid gray;
+   border-radius: 2px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.input_box  input{
+  padding: 7px 4px;
+  width: 300px;
+  font-size: 1rem;
+  border: 0px solid;
+}
+.input_box input:focus{
+  outline: none;
+}
+.icon{
+   cursor: pointer;
+   font-size: 20px;
+   margin: 0 10px;
+}
+.item_box{
+  margin-top: 20px;
+}
+.todo_list{
+   border: 1px solid gray;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   margin: 5px;
+   
+}
+.clear_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.clear_box  button{
+    padding: 5px 9px;
+    border: none;
+    border: 1px solid gray;
+}
+.clear_box  button:hover{
+    background-color: rgb(90, 23, 23);
+    color: wheat;
+}
